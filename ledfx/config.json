@@ -19,10 +19,12 @@
     "ssl"
   ],
   "ports": {
-    "80/tcp": 5333
+    "80/tcp": 5333,
+    "8888/tcp": 5334
   },
   "ports_description": {
-    "80/tcp": "Web interface"
+    "80/tcp": "Web interface",
+    "8888/tcp": "API access"
   },
   "options": {
     "ssl": true,
